@@ -1,0 +1,281 @@
+.marco {
+    border: 1px solid black;
+    position: fixed;
+    height: 80vh;
+    width: 90%;
+    left: 4%;
+    top: 10%;
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+
+    height: 80px;
+    width: 80px;
+
+}
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 30%;
+    list-style: none;
+}
+
+.portada {
+
+    height: auto;
+}
+
+.fondo {
+
+    height:600px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+
+    height: 50%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1{
+
+    display: flex;
+    justify-content: start;
+    font-family: 'Major Mono Display';font-size: 40px;
+
+}
+
+.parrafo_portada{
+
+    height: 50%;
+    width: 100%;
+    text-align: justify;
+    color: black;
+    font-family: 'Inconsolata';font-size: 18px;
+    display:flex;
+    align-items:flex-end;
+justify-content: center;
+}
+.titulo2{
+
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.servicios{
+
+    font-family: 'Poiret One';font-size: 30px;
+}
+
+.galeria{
+
+    height:300px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cuadro1{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+
+}
+.transparencia{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+.cuadro2{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+}
+
+.cuadro3{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+}
+
+.cuadro4{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+}
+
+.galeria2{
+
+    height:300px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cuadro5{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+}
+
+
+.cuadro6{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+}
+
+.cuadro7{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+}
+
+.cuadro8{
+
+    height: 90%;
+    width: 20%;
+    background-image: url("https://static1.squarespace.com/static/5731648062cd9460fe96be85/57316670ab48dea767e25713/5b93f89f8985832595532817/1536425227419/3+PERPECTIVA.jpg?format=1500w");
+    background-size: cover;
+}
+
+.titulo3{
+
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proyectos{
+
+    font-family: 'Poiret One';font-size: 30px;
+}
+
+.fotos_casas{
+
+    height:500px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.casa1{
+
+    height: 100%;
+    width: 25%;
+}
+.c1{
+    height: 500px;
+    width: 100%;
+}
+.casa2{
+
+    height: 100%;
+    width: 25%;
+}
+.c2{
+    height: 500px;
+    width: 100%;
+}
+.casa3{
+
+    height: 100%;
+    width: 25%;
+}
+.c3{
+    height: 500px;
+    width: 100%;
+}
+.casa4{
+
+    height: 100%;
+    width: 25%;
+}
+.c8{
+    height: 500px;
+    width: 100%;
+}
+.casa5{
+
+    height: 100%;
+    width: 25%;
+}
+.c5{
+    height: 500px;
+    width: 100%;
+}
+
+.titulo4{
+
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diseño{
+
+    font-family: 'Poiret One';font-size: 30px;
+}
+
+.cuadro_video{
+
+    height:600px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.video{
+    height: 500px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.face{
+width: 30px;
+height: 30px;
+}
