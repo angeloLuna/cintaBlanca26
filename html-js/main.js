@@ -47,6 +47,7 @@ let mostrarNombre = document.getElementById('mostrarNombre')
 let mostrarEmail = document.getElementById('mostrarEmail')
 let mostrarPizza = document.getElementById('mostrarPizza')
 
+let tarjeta = document.getElementById('tarjeta')
 let boton = document.getElementById('boton')
 
 // console.log(nombre)
@@ -56,16 +57,27 @@ let boton = document.getElementById('boton')
 // console.log(mostrarEmail)
 // console.log(mostrarPizza)
 // console.log(boton)
+// console.log(tarjeta)
 
 const mostrar = () => {
-
-  let textoNombre = nombre.value
+  // Quitar clase invisible
+  tarjeta.classList.remove('invisible')
+  // obtengo el texto de los inputs
+  let textoNombre = nombre.value.toUpperCase()
   let textoEmail = email.value
   let textoPizza = pizza.value
-
+  // Mandamos el texto a las etiquetas h
   mostrarNombre.innerHTML = textoNombre
   mostrarEmail.innerHTML = textoEmail
-  mostrarPizza.innerHTML = textoPizza
+
+  // carita pizza
+  if (textoPizza === 'si'){
+    mostrarPizza.innerHTML = '😡'
+  }else {
+    mostrarPizza.innerHTML = '😘'
+  }
+
+
 
 }
 

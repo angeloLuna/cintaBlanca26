@@ -8,3 +8,11 @@
   border-radius: 5px;
   font-family: arial;
 }
+
+.invisible {
+  display: none;
+}
+
+#mostrarPizza {
+  font-size: 40px;
+}
